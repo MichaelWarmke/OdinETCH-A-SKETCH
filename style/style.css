@@ -1,0 +1,26 @@
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+    width: 960px;
+    margin: 0px auto;
+}
+
+#buttonBar {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#resetButton {
+    height: 50px;
+    width: 150px;
+}
+
+.gridItem {
+    background: black;
+    height: 45px;
+}
+
+.trail-on {
+    background: purple;
+}
